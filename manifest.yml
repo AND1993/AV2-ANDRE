@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: av2
+  host: AV2
+  disk_quota: 1024M
+  services:
+  - Document Conversion-5e
+  - availability-monitoring-auto
+  - Document Conversion-39
+  - Cloudant NoSQL DB-9j
